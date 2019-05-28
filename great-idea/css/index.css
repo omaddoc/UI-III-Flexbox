@@ -211,7 +211,7 @@ footer p.copyright {
 .ser-container {
 	max-width: 1024px;
 	margin: 0 auto;
-	background: lightgray;
+	/* background: lightgray; */
 }
 
 div.ser-container header.ser-header {
@@ -267,6 +267,7 @@ section.ser-main-content div.row-one article {
 	padding: 20px;
 	margin-right: 30px;
 	margin-bottom: 30px;
+	background: lightgray;
 }
 
 section.ser-main-content div.row-one article h3 {
@@ -279,12 +280,37 @@ section.ser-main-content div.row-one article p {
 	padding-bottom: 20px;
 }
 
+section.ser-main-content div.row-one article button {
+	font-size: 11px;
+	padding: 6px 40px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
 section.ser-main-content div.row-two article {
 	border: 1px solid black;
 	width: 450px;
 	padding: 20px;
 	margin-right: 30px;
 	margin-bottom: 30px;
+	background: lightgray;
+}
+
+section.ser-main-content div.row-two article h3 {
+
+}
+
+section.ser-main-content div.row-two article p {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+section.ser-main-content div.row-two article button {
+	font-size: 11px;
+	padding: 6px 40px;
+	border-radius: 3px;
+	border: 1px solid black;
 }
 
 section.ser-main-content div.row-three article {
@@ -293,5 +319,66 @@ section.ser-main-content div.row-three article {
 	padding: 20px;
 	margin-right: 30px;
 	margin-bottom: 30px;
+	background: lightgray;
 }
 
+section.ser-main-content div.row-three article h3 {
+
+}
+
+section.ser-main-content div.row-three article p {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+section.ser-main-content div.row-three article button {
+	font-size: 11px;
+	padding: 6px 40px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+div.ser-container footer.ser-footer {
+	
+}
+
+div.ser-container footer.ser-footer div.ser-align-footer {
+	display: flex;
+}
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article {
+
+}
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article {
+margin-left: 10px;
+}
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article h4 {
+
+}
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article p {
+	width: 400px;
+	margin: 20px 70px 30px 0;
+} 
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article ul {
+
+} 
+
+div.ser-container footer.ser-footer div.ser-align-footer article.ser-footer-article ul li {
+	list-style-type: square;
+	margin-left: 20px;
+	margin-bottom: 20px;
+} 
+
+div.ser-container footer.ser-footer div.ser-align-footer img {
+
+}
+
+div.ser-container p.copy {
+	text-align: center;
+	margin: 80px 0;
+}
