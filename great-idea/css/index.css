@@ -133,17 +133,18 @@ section.second-section {
 	margin-left: 50px;
 	margin-right: 50px;
 	border-top: 1px solid black;
+	display: flex;
 }
 
 section.second-section div.first-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 450px;
 	margin-right: 20px;
 	/* margin-left: 50px;  */
 }
 
 section.second-section div.second-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 450px;
 }
 
@@ -155,25 +156,28 @@ section.third-section {
 	margin: 0 50px;
 	margin-bottom: 50px;
 	padding-bottom: 20px;
+	margin-top: 30px;
 	border-bottom: 1px solid black;
+	display: flex;
+	/* background: gray; */
 }
 
 section.third-section div.first-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 280px;
 	/* margin-left: 50px; */
 	margin-right: 30px;
-	margin-top: 30px;
+	
 }
 
 section.third-section div.second-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 280px;
 	margin-right: 30px;
 }
 
 section.third-section div.third-column {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 280px;
 }
 
