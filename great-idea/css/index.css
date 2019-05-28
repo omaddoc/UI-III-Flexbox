@@ -204,3 +204,41 @@ footer p.copyright {
 	margin: 80px 0;
 	text-align: center;
 }
+
+
+/* SERVICES PAGE */
+.ser-container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+div.ser-container header.ser-header {
+	margin-bottom: 20px;
+}
+
+div.ser-container header.ser-header nav {
+	/* margin-right: 10px; */
+	/* width: 900px; */
+	/* background: green; */
+}
+
+div.ser-container header.ser-header nav a {
+	/* background: red; */
+}
+
+div.ser-container header.ser-header img.logo {
+	margin-right: 83px;
+}
+
+div.ser-container  div.top-image {
+	margin: 0 60px;
+	margin-bottom: 40px;
+}
+
+section.ser-introduction article {
+	/* background: gray; */
+	width: 890px;
+	margin: 0 60px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
