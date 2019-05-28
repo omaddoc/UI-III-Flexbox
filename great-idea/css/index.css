@@ -206,10 +206,12 @@ footer p.copyright {
 }
 
 
-/* SERVICES PAGE */
+/* SERVICES PAGE SERVICES PAGE SERVICES PAGE SERVICES PAGE*/
+
 .ser-container {
 	max-width: 1024px;
 	margin: 0 auto;
+	background: lightgray;
 }
 
 div.ser-container header.ser-header {
@@ -232,7 +234,7 @@ div.ser-container header.ser-header img.logo {
 
 div.ser-container  div.top-image {
 	margin: 0 60px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 section.ser-introduction article {
@@ -242,3 +244,54 @@ section.ser-introduction article {
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
+
+section.ser-introduction article h2 {
+	font-weight: bolder;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+section.ser-main-content {
+	margin: 40px 60px;
+	margin-right: 73px;
+	border-bottom: 1px solid black;
+}
+
+section.ser-main-content div.row-one, div.row-two, div.row-three {
+	display: flex;
+	width: 920px;
+}
+
+section.ser-main-content div.row-one article {
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+section.ser-main-content div.row-one article h3 {
+
+}
+
+section.ser-main-content div.row-one article p {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+section.ser-main-content div.row-two article {
+	border: 1px solid black;
+	width: 450px;
+	padding: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+section.ser-main-content div.row-three article {
+	border: 1px solid black;
+	width: 450px;
+	padding: 20px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
