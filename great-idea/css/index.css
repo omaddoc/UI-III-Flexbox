@@ -190,17 +190,17 @@ footer address {
 }
 
 footer p.number {
-	display: block;
+	/* display: block; */
 	margin-bottom: 20px;
 }
 
 footer p.email {
-	display: block;
+	/* display: block; */
 	margin-bottom: 20px;
 }
 
 footer p.copyright {
-	display: block;
+	/* display: block; */
 	margin: 80px 0;
 	text-align: center;
 }
